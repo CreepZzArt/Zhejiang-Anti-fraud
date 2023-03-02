@@ -1,0 +1,67 @@
+/* 全局变量 */
+*{
+      margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+}
+/* 主题颜色 */
+.theme-colors{
+	background-color: #3568F5;
+}
+ /* 渐变色 */
+.Graduate-color{
+   color:#294EB5;
+}
+/* 辅助色 */
+.Auxiliary-color{
+	color: #F1F1F1;
+}
+/* 标题色 */
+.title-color{
+	color:#1B1B1B;
+}
+/* 内容色 */
+.content-color{
+	color:#080808;
+}
+/* 默认状态 */	
+.Default-color{
+	color:#9DA2AD;
+}
+/* 分隔色*/
+.divide-color{
+	color:#ECEDF0;
+}
+ 
+/* 标题 */
+/* 一级标题 */
+.Primary-title{
+	font-size: 25px;
+	font-weight:normal;
+	font-style:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+/* 二级标题 */	
+.secondary-title{
+	font-size: 19px;
+	font-weight:normal;
+	font-style:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+/* 三级标题 */	
+.three-title{
+	font-size:17px;
+	font-weight:normal;
+	font-style:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+/* 正文 */
+.main-body{
+	font-size:10rpx;
+	font-weight:normal;
+	font-style:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}

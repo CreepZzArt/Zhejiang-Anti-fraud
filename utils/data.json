@@ -1,0 +1,273 @@
+{
+    "name": null,
+    "classifyId": 0,
+    "classifyTitle": null,
+    "totalScores": 0,
+    "testTime": "00:00:00",
+    "testTimeMinutes": 0,
+    "questionGroups": [
+        {
+            "name": null,
+            "eachScores": 2,
+            "questions": [
+                {
+                    "optionList": [
+                        "默认自己账户被盗用的事实，按照警察教学的方法保护财产，毕竟人民警察不可能是坏人。",
+                        "拨打110报警电话，核实电话中警察所说明的信息，并相信自己不会受到冤枉。",
+                        "打电话告知自己的亲属，自己的手机号码等信息泄露，警惕陌生号码的来电。",
+                        "不予转账并举报该电话号码。"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "<ol>\r\n\t<li>今年&quot;十一&quot;黄金周期间，这个市的3000多名消防官兵，已准备好210辆消防车，决定放弃休假，始终坚守在各自执勤的岗位上。</li>\r\n\t<li>华航电子有限公司以人为本，利用各种渠道培养和提高在职人员的专业技术水平，取得了良好的经济效益。</li>\r\n\t<li>海洋生物专家介绍，许多海洋生物的药用价值正在逐步被发现和推广，其前途不可估量。&nbsp;</li>\r\n\t<li>北方联盟是否进军喀布尔，取决于阿富汗各派在政治上达成一致以及塔利班是否妥协。</li>\r\n</ol>\r\n",
+                    "optionsLength": 4,
+                    "answer": "A",
+				
+                    "analysis": "这是典型的冒充公检法诈骗。骗子谎称自己是警察，骗取你的信任，用虚构的案情诱使你进行银行卡转账。需要谨记公安机关不会在电话里网上办案，也不会和其他部门之间相互转接电话，更不会要求对其转账。",
+				
+                    "questionStem": "<p>放假期间，小明接到来电显示为公安部门的电话。对方声称小明的银行账户被毒贩盗用，涉嫌洗钱，需要小明配合调查并将冻结小明的账户。随后，对方为小明提供了一个银行卡账号，并告知要将银行卡里的存款转移到安全账户中才能不被冻结。如果你是小明，你不应该做什么？()</p>\r\n",
+                    "scores": 2,
+                    "additional": {
+                        "id": 64828,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 1
+                    }
+                },
+                {
+                    "optionList": [
+                        "夸奖小陈，并将该方法告诉班里的贫困学生，带领同学们一起致富。",
+                        "及时制止小陈，统计班里有多少同学参与了此类活动，联系营业厅进行销卡并报警。",
+                        "无视小陈的行为，大学生小打小闹弄点小钱，不足为虑。",
+                        "默许小陈的行为，找小陈谈心，是否遇上了资金方面的困难，并提供帮助。"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "<ol>\r\n\t<li style=\"margin-bottom: 11.25pt; margin-right: 0cm; margin-left: 0cm;\"><span style=\"font-size:12pt\"><span style=\"font-family:Calibri,sans-serif\"><u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">毗</span></span></span></u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">连&nbsp;<u>琵</u>琶&nbsp;<u>筚</u>路蓝缕</span></span></span></span></span></li>\r\n\t<li style=\"margin-bottom: 11.25pt; margin-right: 0cm; margin-left: 0cm;\"><span style=\"font-size:12pt\"><span style=\"font-family:Calibri,sans-serif\"><u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">伶</span></span></span></u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">仃&nbsp;<u>拎</u>包 身陷<u>囹</u>圄</span></span></span></span></span></li>\r\n\t<li style=\"margin-bottom: 11.25pt; margin-right: 0cm; margin-left: 0cm;\"><span style=\"font-size:12pt\"><span style=\"font-family:Calibri,sans-serif\"><u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">格</span></span></span></u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">式 楼<u>阁</u>&nbsp;<u>恪</u>尽职守</span></span></span></span></span></li>\r\n\t<li style=\"margin-bottom: 11.25pt; margin-right: 0cm; margin-left: 0cm;\"><span style=\"font-size:12pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">拾<u>掇</u>&nbsp;点<u>缀</u>&nbsp;忧心<u>惙惙</u></span></span></span></span></span></li>\r\n</ol>\r\n",
+                    "optionsLength": 4,
+                    "answer": "B",
+                    "analysis": "小陈出售的电话卡可能会成为骗子进行诈骗的工具。目前，断卡行动如火如荼，贩卡行为已然违法。我们不仅不要贩卡，生活中也要注意自己的电话卡不被盗用。",
+                    "questionStem": "<p>小陈发现了一门好生意，只要用自己的身份证办理免费的电话卡，再转手卖出就能简简单单获得一大笔报酬，有专门的团队进行收购，平均一张卡10-50元不等。小陈很快将自己的生财之道分享给了宿舍的兄弟们，每周末都会去附近购卡再卖卡。作为小陈辅导员的你知道了这件事，你应该怎么做？()</p>\r",
+                    "scores": 2,
+                    "additional": {
+                        "id": 40046,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 2
+                    }
+                },
+                {
+                    "optionList": [
+                        "感谢刘大妈分享给你的生财小妙招，并开始自己的新兼职。",
+                        "这个工作简单操作，特别适合有空闲时间的老人和学生，你也要转发推广。",
+                        "劝阻刘大妈不要轻信所谓的刷单返利，及时向群主举报信息内容，将该账号踢出社区群。",
+                        "不理睬刘大妈的分享，出了事是好是坏，与我无关。"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "",
+                    "optionsLength": 4,
+                    "answer": "C",
+                    "analysis": "刷单返利都是诈骗。刷单本身就属违法行为，骗子会通过QQ群、贴吧等平台发布兼职，以佣金高为诱饵进行诈骗，找兼职要尽量到正规的求职平台。",
+                    "questionStem": "<p>刘大妈是个热心肠，她加了几个社区联络群做志愿者。她在好几个群里都看到同一个人发布的招聘消息。招聘人员年龄不限，工作内容简单操作没有难度，只需要有一部手机进行刷单，就可以根据单数进行返现，平均日薪300+,刘大妈心动了，并将消息告诉了你，你应该怎样做?()</p>\r",
+                    "scores": 2,
+                    "additional": {
+                        "id": 61894,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 3
+                    }
+                },
+                {
+                    "optionList": [
+                        "时不我待，果断出手，将三十万一次性投资",
+                        "投资有风险，不要把鸡蛋放在一个篮子里，问问朋友能不能投资十五万。",
+                        "将炒股群分享给自己的亲友，拉大家一起入伙，有钱大家一起赚。",
+                        "尝试对三万元提现，尽快脱身退群，必要时选择报警，保护财产安全。"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "<ol>\r\n\t<li>她的小学和初中的都是在很普通的学校里上的，虽然<u>师出无名</u>，但今天她却成了这一领域中的杰出人才。</li>\r\n\t<li>应鼓励学生对现有知识提出疑问，对旧的学术权威提出挑战，要在发现和创造新知识方面<u>独辟蹊径</u>。</li>\r\n\t<li>日子过得真快，一转眼，暑假就要结束了，开学的日子已<u>迫在眉睫</u>。</li>\r\n\t<li>真正的朋友之间，应该<u>间不容发</u>，关系密切如一人。</li>\r\n</ol>\r\n",
+                    "optionsLength": 4,
+                    "answer": "D",
+                    "analysis": "马大姐加入了一个钓鱼炒股群，群里的人除了马大姐以外都是“托儿”。所谓的炒股平台很可能是骗子制作的假平台并不能提现。投资需谨慎，切勿相信存在所谓内幕等消息。",
+                    "questionStem": "<p>马大姐的朋友声称自己手头上有好项目，想拉马大姐入伙，随后将马大姐拉入一个炒股群。炒股群里人声鼎沸都在分享自己的赚钱经历，在朋友的引荐下，马大姐认识了群里的炒股大师，并对平台投资了三千元，第二天平台显示赚了三万元。马大姐的朋友告诉马大姐第二次投资基数需要三十万，马大姐手中刚巧有多年积攒的三十万元。如果你是马大姐，你该怎么做？()</p>\r",
+                    "scores": 2,
+                    "additional": {
+                        "id": 64822,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 4
+                    }
+                },
+                {
+                    "optionList": [
+                        "果断购买，最难消受美人恩，喜欢的人亲手炒的茶一定果断入手。",
+                        "我的钱就是她的钱，茶叶不喜欢喝可以不买，红包一定要大大的包。",
+                        "提前准备好生日礼物和生日红包，购买茶叶送朋友。",
+                        "不发红包也不购买茶叶，换个小号对“女友”进行测试，必要时选择拉黑。"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "<ol>\r\n\t<li>际遇 &nbsp;辑录 &nbsp;风雨飘遥</li>\r\n\t<li>蒙昧 &nbsp;迷惘 &nbsp;处之泰然</li>\r\n\t<li>豁达 &nbsp;墨契 &nbsp;简明厄要</li>\r\n\t<li>料俏 &nbsp;羁伴 &nbsp;似无忌惮</li>\r\n</ol>\r\n",
+                    "optionsLength": 4,
+                    "answer": "D",
+                    "analysis": "老张落入了一场精心设计的“杀猪盘”，而且骗子即将收网。此类诈骗中，骗子将自己包装成温柔贤惠的贤妻或是事业有成的男神人设，再通过卖茶、投资、借钱等多种名义要钱。生活中，一定不要轻易给陌生人转账。",
+                    "questionStem": "<p>大龄剩男老张为了尽快成家，注册了某婚恋网的会员，目前正和一位网友聊得火热，女孩时不时给老张发送生活照片并分享自己的经历。照片中的女孩面容姣好，生活中的女孩孝顺乖巧，老张坠入了爱河。最近女孩回了老家，并且马上过生日了。女孩想让老张给自己发一个生日红包，并购买一些自己炒的春茶。老张应该怎么做？()</p>\r\n",
+                    "scores": 2,
+                    "additional": {
+                        "id": 64088,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 5
+                    }
+                },
+                {
+                    "optionList": [
+                        "心中一喜，又有一笔收入进账了",
+                        "根据对方指示到ATM机上进行操作领取补贴",
+                        "按照对方要求提供自己的身份证号、银行账号、联系电话等信息",
+                        "挂断电话，打电话向相关政府部门进行核实"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "<ol>\r\n\t<li><u>陌</u>生 &nbsp;<u>秣</u>马厉兵 &nbsp;<u>蓦</u>然醒悟</li>\r\n\t<li><u>唠</u>叨 &nbsp;时代<u>烙</u>印 &nbsp;防旱防<u>涝</u></li>\r\n\t<li><u>堕</u>落 &nbsp;<u>度</u>德量力 &nbsp;城墙<u>垛</u>口</li>\r\n\t<li>保<u>姆</u>&nbsp;&nbsp;栉风<u>沐</u>雨 &nbsp;<u>睦</u>邻友邦</li>\r\n</ol>\r\n",
+                    "optionsLength": 4,
+                    "answer": "D",
+                    "analysis": null,
+                    "questionStem": "<p>小李最近刚生完宝宝，在家坐月子。一天上午，她接到一个电话，对方自称政府工作人员，能说出她的姓名并知道她刚生了宝宝。对方表示，其生育符合国家相关政策，现在要给她发放“生育补贴”2000元。这时小李的哪些做法是正确的？()</p>\r\n",
+                    "scores": 2,
+                    "additional": {
+                        "id": 66482,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 6
+                    }
+                },
+                {
+                    "optionList": [
+                        "赶紧去ATM机，根据对方要求去操作",
+                        "向辅导员询问情况",
+                        "向学校资助中心了解情况",
+                        "挂掉电话，并报警"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "<ol>\r\n\t<li><span style=\"font-size:14px;\">不胫而走 旁证博引 即往开来</span></li>\r\n\t<li><span style=\"font-size:14px;\">鞭辟入里 变本加厉 瑕瑜互见</span></li>\r\n\t<li><span style=\"font-size:14px;\">轻歌曼舞 始作勇者 一愁莫展</span></li>\r\n\t<li><span style=\"font-size:14px;\">以逸代劳 谈笑风生 变换莫测</span></li>\r\n</ol>\r\n",
+                    "optionsLength": 4,
+                    "answer": "A",
+                    "analysis": null,
+                    "questionStem": "<p>“你好，我是学校助学办公室，学校将向你发放一笔助学金已。请你拿着你的银行卡到ATM机上转取。具体的操作我会电话告诉你。”当你接到这样的电话，做法错误的是()</p>\r\n",
+                    "scores": 2,
+                    "additional": {
+                        "id": 31340,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 7
+                    }
+                },
+                {
+                    "optionList": [
+                        "料：银行卡四件套信息",
+                        "水房：专门的洗钱集团",
+                        "车手：通过ATM机取诈骗赃款获得提成的人",
+                        "猪蹄：指在赌博中的老千"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "<ol>\r\n\t<li><u>数</u>说 &nbsp;<u>数</u>伏 &nbsp;不可胜<u>数</u>&nbsp;&nbsp;<u>数</u>典忘祖</li>\r\n\t<li><u>识</u>别 &nbsp;<u>识</u>破 &nbsp;博闻强<u>识</u>&nbsp;&nbsp;远见卓<u>识</u></li>\r\n\t<li>纵<u>横</u>&nbsp;&nbsp;<u>横</u>行 &nbsp;妙趣<u>横</u>生 &nbsp;专<u>横</u>跋扈</li>\r\n\t<li><u>模</u>型 &nbsp;<u>模</u>具 &nbsp;<u>模</u>棱两可 &nbsp;装<u>模</u>作样</li>\r\n</ol>\r\n",
+                    "optionsLength": 4,
+                    "answer": "D",
+                    "analysis": null,
+                    "questionStem": "<p>电信诈骗已经成为一个完善的产业链条，骗子之间的分工也越来越明确，诈骗界的“黑话”语系也逐渐形成。下列诈骗界的“黑话”与解释对应错误的是()</p>\r\n",
+                    "scores": 2,
+                    "additional": {
+                        "id": 64085,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 8
+                    }
+                },
+                {
+                    "optionList": [
+                        "电信诈骗属于可以酌情从严处罚的要件",
+                        "电信诈骗犯罪属于诈骗罪的一种",
+                        "明知诈骗，提供网络技术支持的以共犯论处",
+                        "仅发送诈骗信息，未诈骗到钱财的，不能定罪"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "<ol>\r\n\t<li><span style=\"font-size:14px;\">由于在交通路口设置了&ldquo;非机动车禁驶区&rdquo;，机动车就可以免受非机动车干扰，从 而加快行驶速度。</span></li>\r\n\t<li><span style=\"font-size:14px;\">国际社会普遍认为，海洋资源的开发利用将成为人类走出人口剧增、资源枯竭、环 境恶化困境的重要选择。</span></li>\r\n\t<li><span style=\"font-size:14px;\">如果美术工作者看不到儿童自身发展的主动性，过早地让他们接受专业绘画知识， 那么就会变成束缚儿童发展的枷锁。</span></li>\r\n\t<li><span style=\"font-size:14px;\">为能够吸引更多的高科技人才进驻本市高科技园区企业，市政府相关部门将为此类 人才提供专门的资金支持政策。</span></li>\r\n</ol>\r\n",
+                    "optionsLength": 4,
+                    "answer": "D",
+                    "analysis": null,
+                    "questionStem": "<p>关于电信诈骗，以下说法不正确的是()</p>\r\n",
+                    "scores": 2,
+                    "additional": {
+                        "id": 31343,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 9
+                    }
+                },
+                {
+                    "optionList": [
+                        "任何要求自己打款、汇钱的行为都要特别慎重。",
+                        "在短信、QQ聊天、微信对话中都应尽量不提及银行卡号、密码等个人信息，以免被诈骗分子利用。",
+                        "当收到“请将钱汇入×××账户”的短信或网聊中熟人提出借款之类的请求时，先不要着急汇款，应拨通对方电话确认后再操作。",
+                        "对于银行或朋友发来的短信中自带的链接，可以放心打开。"
+                    ],
+                    "questionType": 1,
+                    "version": 1,
+                    "options": "<ol>\r\n\t<li>个性 面貌 大智若愚</li>\r\n\t<li>个性 风貌 大巧若拙</li>\r\n\t<li>性格 面貌 大智若愚</li>\r\n\t<li>性格 风貌 大巧若拙</li>\r\n</ol>\r\n",
+                    "optionsLength": 4,
+                    "answer": "D",
+                    "analysis": null,
+                    "questionStem": "<p>目前的电信诈骗手段花样翻新，以下容易受骗上当的操作是（）</p>\r\n",
+                    "scores": 2,
+                    "additional": {
+                        "id": 45484,
+                        "level": "shiti",
+                        "typeName": "单选题",
+                        "doneCount": 0,
+                        "errorCount": 0,
+                        "star": false,
+                        "order": 10
+                    }
+                }
+            ],
+            "additional": {}
+        }
+    ],
+    "testSeconds": null,
+    "additional": {
+        "kcId": 277
+    }
+}

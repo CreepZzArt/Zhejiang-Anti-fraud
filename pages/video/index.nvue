@@ -1,0 +1,291 @@
+<template>
+	<div class="page" :style="{ height: height }">
+		<cover-view class="cover-view-center">
+			<div :style="{ height: height,width: width }" ref="touch" @click="videoPlay(index)" @touchstart="ListTouchStart" @touchmove="ListTouchMove">
+				<div class="cover-view-right" v-if="distanceX==0">
+					<image class="img" @click.stop="tapAvater"></image>
+					<text class="right-text"> </text>
+					<image class="img" @click.stop="tapLove"></image>
+					<text class="right-text"> </text>
+					<image class="img" @click.stop="tapMsg"></image>
+					<text class="right-text"> </text>
+					<image class="img" @click.stop="tapShare"></image>
+					<text class="right-text"> </text>
+				</div>
+			</div>
+		</cover-view>
+		<div class="swiper" ref="swiper">
+			<block v-for="(item, idx) in videoList" :key="idx">
+				<div class="video-box" :style="{ height: height }">
+					<block v-if="Math.abs(index-idx)<=1">
+						<chunlei-video class="video" :src="item.src"  :height="height" :width="width" 
+							:play="item.flag" :gDuration="item.duration" :objectFit="item.objectFit"
+							:initialTime="item.initialTime" @pause="pauseVideo"
+						>
+						</chunlei-video>
+						<cover-view class="cover-view-left">
+							<text class="left-text">@{{item.at}}</text>
+							<text class="left-text">{{item.content}}</text>
+						</cover-view>
+						<cover-view class="cover-view-right">
+							<cover-image :src="item.avater" class="avater img"></cover-image>
+							<text class="right-text-avater">+</text>
+							<text class="right-text"></text>
+							<cover-image :src="item.check?'../../static/aixinRed.png':'../../static/aixin.png'" class="img"></cover-image>
+							<text class="right-text">{{item.like}}</text>
+							<cover-image src="../../static/xiaoxi.png" class="img"></cover-image>
+							<text class="right-text">{{item.comment}}</text>
+							<cover-image src="../../static/share-fill.png" class="img"></cover-image>
+							<text class="right-text">分享</text>
+						</cover-view>
+					</block>
+				</div>
+			</block>
+		</div>
+		<div class="left-div" :style="{ height: height,width: width,left:`${-parseInt(width)}px` }" ref="left">
+			<text class="title-text">{{videoList[index].at}}</text>
+		</div>
+		<div class="right-div" :style="{ height: height,width: width,right:`${-parseInt(width)}px` }" ref="right">
+			<text class="title-text">{{videoList[index].content}}</text>
+		</div>
+	</div>
+</template>
+<script>
+	import chunleiVideo from '../../components/chunlei-video/chunlei-video.vue';
+	import scrollMixins from './scrollMixins';
+	const BindingX = uni.requireNativePlugin('bindingx');
+	const animation = weex.requireModule('animation');
+	const modal = weex.requireModule('modal');
+	export default { 
+		mixins:[scrollMixins],
+		components:{
+			chunleiVideo
+		},
+		data(){
+			return{
+				videoList:[
+					{
+						src:'https://v.superbed.cn/hls/6326c4f716f2c2beb144dbe0.m3u8?t=632d7296&n=5167a6e1&s=b42e9aeb4ba937504fdf95b4d7b8412f',
+						content:'#抖音反诈全国行 抖音反诈',
+						flag:false,
+						check:false,
+						like:'10w',
+						comment:'1045',
+						avater:'https://s3.bmp.ovh/imgs/2022/09/18/e473c23229eb64d1.jpg',
+						initialTime:0,
+						at:'高雨田大魔王',
+						duration:841,
+						objectFit:'fill'
+					},
+					{
+						src:'https://v.superbed.cn/hls/6326c6a116f2c2beb1469b88.m3u8?t=632d72b5&n=bf37d1d9&s=83200f95c62c1c731bcfa10a962b4ce0',
+						content:'“支付宝备用金诈骗”电话打到反诈中心，大家要小心这种利用召回商品要给你理赔的诈骗手法#全民反诈#诈骗#反诈',
+						flag:false,
+						check:true,
+						like:'7w',
+						comment:'1045',
+						avater:'https://s3.bmp.ovh/imgs/2022/09/18/73aa1d49827b3f39.jpg',
+						initialTime:0,
+						at:'平安茂名',
+						duration:149
+					},
+					{
+						src:'https://v.superbed.cn/hls/6326c82216f2c2beb1482c38.m3u8?t=632d72cb&n=8fa60727&s=5da28051c7a3c11095bf4ae05ad4aac5',
+						content:'特警教你如何霸气回怼诈骗电话。#全民反诈#怼骗子@宁波公安',
+						flag:false,
+						check:false,
+						like:'7w',
+						comment:'1045',
+						avater:'https://s3.bmp.ovh/imgs/2022/09/18/808acc829259f8b6.jpg',
+						initialTime:0,
+						at:'宁波特警',
+						duration:1162
+					},
+					{
+						src:'https://v.superbed.cn/hls/6326c85616f2c2beb14863e8.m3u8?t=632d7300&n=c4503f45&s=2a5aac8f1e530c98ce6fd84dd3b4ff91',
+						content:'刷单兼职到最后永远都是无底洞，最终将你的积蓄全部掏空！#全民反诈在行动#刑侦利剑守护平安#反诈小剧场',
+						flag:false,
+						check:false,
+						like:'7w',
+						comment:'1045',
+						avater:'https://s3.bmp.ovh/imgs/2022/09/18/08f018d974d5a8cb.jpg',
+						initialTime:0,
+						at:'国家反诈中心',
+						duration:1162
+					},
+					{
+						src:'https://v.superbed.cn/hls/6326c86d16f2c2beb1487cb9.m3u8?t=632d7310&n=2670fcc9&s=4f814161ebf08c94750be33bfc0c2796',
+						content:'第1集|#账户突然多了10万元，小心掉入#骗子的#陷阱！',
+						flag:false,
+						check:false,
+						like:'7w',
+						comment:'1045',
+						avater:'https://s3.bmp.ovh/imgs/2022/09/18/7f6ab37c90fd9cf5.jpg',
+						initialTime:0,
+						at:'滕州公安',
+						duration:1162
+					},
+				]
+			}
+		},
+		created(){
+			this.init()
+		},
+		async mounted() {
+			await this.pushVideoList()
+			this.videoPlay(this.index)
+		},
+		onHide(){
+			for (let item of this.videoList) {
+				item.flag = false
+			}
+		},
+		methods:{
+			//设置参数
+			init(){
+				this.typeX = true //开启左右滑动
+				this.playCount = 2 //剩余多少视频加载视频列表
+				this.startDistance = 5 //判断左右上下拖动的启动距离 px
+				this.minTime = 300 //判断快速滑动的时间,该时间内无视回弹距离判断
+				this.backDistance = 200 //判断上下滑动的回弹距离 px
+			},
+			
+			tapLove(){
+				if(this.distanceX!=0) return
+				this.videoList[this.index].check = !this.videoList[this.index].check
+				this.videoList = [...this.videoList]
+			},
+			tapAvater(){
+				if(this.distanceX!=0) return
+				uni.showToast({
+					icon:'none',
+					title:`查看${this.videoList[this.index].at}的头像`
+				})
+			},
+			tapMsg(){
+				if(this.distanceX!=0) return
+				uni.showToast({
+					icon:'none',
+					title:``
+				})
+			},
+			tapShare(){
+				if(this.distanceX!=0) return
+				uni.showToast({
+					icon:'none',
+					title:`成功分享${this.videoList[this.index].at}的视频`
+				})
+			}
+		}
+	}
+</script>
+
+<style lang="scss" scoped>
+	.page{
+		overflow: hidden;
+		position: relative;
+	}
+	.swiper{
+		position: relative;
+		background-color: #000;
+	}
+	.left-div{
+		position: absolute;
+		top: 0;
+		justify-content: center;
+		align-items: center;
+	}
+	.right-div{
+		position: absolute;
+		top: 0;
+		justify-content: center;
+		align-items: center;
+	}
+	.title-text{
+		font-size: 16px;
+		color: #000000;
+	}
+	.video-box{
+	
+		background-color: #000;
+	}
+	.cover-view-center{
+		position: fixed;
+		justify-content: center;
+		align-items: center;
+		
+		z-index: 999;
+	}
+	.cover-view-top{
+		position: fixed;
+		width: 750rpx;
+		height: 150px;
+		overflow: hidden;
+	}
+	.cover-view-left{
+		position: absolute;
+		margin-left: 10upx;
+		width: 500upx;
+		bottom: 120upx;
+		z-index: 9999;
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+	.left-text{
+		font-size: 16px;
+		color: #FFFFFF;
+		margin-bottom: 20upx;
+	}
+	.avater{
+		border-radius: 50upx;
+		border-color: #fff;
+		border-style: solid;
+		border-width: 2px;
+	}
+	
+	.cover-view-right{
+		position: absolute;
+		bottom: 160upx;
+		right: 20upx;
+		z-index: 9999;
+	}
+	.right-text-avater{
+		position: absolute;
+		font-size: 14px;
+		top: 80upx;
+		left: 30upx;
+		height: 40upx;
+		width: 40upx;
+		background-color: #DD524D;
+		color: #FFFFFF;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 40upx;
+		z-index: 999;
+	}
+	
+	.avater-icon{
+		height: 40upx;
+		width: 40upx;
+		
+		color: #fff;
+		background-color: #DD524D;
+		border-radius: 50%;
+		position: absolute;
+		left: 30upx;
+		top:-20upx;
+	}
+	
+	.right-text{
+		text-align: center;
+		font-size: 14px;
+		color: #FFFFFF;
+		margin-bottom: 50upx;
+		height: 20px;
+	}
+	.img{
+		height: 100upx;
+		width: 100upx;
+		opacity: 0.9;
+	}
+</style>

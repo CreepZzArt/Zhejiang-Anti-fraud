@@ -1,0 +1,16 @@
+{
+	"name": "scroll-video",
+	"version": "1.0.0",
+	"description": "uniapp仿抖音视频滑动效果\r # 说明\r 插件分别用swiper实现(多端)和css3动画实现(暂时只支持app,强烈推荐)，可自行切换。",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"iview": "^3.5.4",
+		"uview-ui": "^2.0.31"
+	},
+	"devDependencies": {
+		"sass-loader": "^10.3.0"
+	}
+}

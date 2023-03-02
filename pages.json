@@ -1,0 +1,390 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/guide/guide",
+			"style": {
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"contentAdjust": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #3568f6, #294EB5)"
+					}
+				},
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/answer/top",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/news",
+			"style": {
+				"navigationBarTitleText": "新闻",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #3568f6, #294EB5)"
+					}
+				},
+				"enablePullDownRefresh":true,
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/my",
+			"style": {
+				"navigationBarTitleText": "  ",
+				"navigationBarBackgroundColor": "#3568f5",
+				"enablePullDownRefresh":true,
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/index/download",
+			"style": {
+				"navigationBarTitleText": "应用详情",
+				"navigationBarBackgroundColor": "#ecececf8",
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/index/Aboutwe",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#3568f6",
+				"enablePullDownRefresh":true,
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/index/nocheat",
+			"style": {
+				"navigationBarTitleText": "为何防诈",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"enablePullDownRefresh":true,
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/index/tabbar",
+			"style": {
+				"navigationBarTitleText": "为何防诈",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"enablePullDownRefresh":true,
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/setting/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "积分商店",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/setting/account",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/modular1/mod1index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/modular1/hackLogin",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/modular1/LoadingPage",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/news/web-view",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/modular2/Redpacket",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/modular2/download",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/modular2/warning",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/modular3/R18",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/modular4/liaoTian",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/modular4/yeMian",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/modular3/pay",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/modular3/warning",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/answer/game",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/answer/test1",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/answer/test2",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/answer/test3",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/inform/inform",
+			"style": {
+				"navigationBarTitleText": "我要举报",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/inform/Phone",
+			"style": {
+				"navigationBarTitleText": "诈骗电话",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/inform/Web",
+			"style": {
+				"navigationBarTitleText": "举报网站",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path": "pages/inform/Describe",
+			"style": {
+				"navigationBarTitleText": "举报详情",
+				"navigationBarBackgroundColor": "#3568f6",
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage":"linear-gradient(to right, #4278ca, #294EB5)"
+					}
+				},
+				"navigationStyle":"default"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3568f5",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height":"60px",
+		"list": [
+		{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/icon/home.png",
+			"selectedIconPath": "static/icon/home1.png"
+		}, 
+		{
+			"pagePath": "pages/index/news",
+			"text": "新闻",
+			"iconPath": "static/icon/news.png",
+			"selectedIconPath": "static/icon/news1.png"
+		},
+		{
+			"pagePath": "pages/video/index",
+			"text": "视频",
+			"iconPath": "static/icon/video.png",
+			"selectedIconPath": "static/icon/video1.png"
+		},
+		{
+			"pagePath": "pages/index/my",
+			"text": "我的",
+			"iconPath": "static/icon/my.png",
+			"selectedIconPath": "static/icon/my1.png"
+		}
+		]
+	},
+	"uniIdRouter": {},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+	
+}

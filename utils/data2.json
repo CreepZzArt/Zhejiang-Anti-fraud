@@ -1,0 +1,274 @@
+{
+    "name": null,
+    "classifyId": 0,
+    "classifyTitle": null,
+    "totalScores": 0,
+    "testTime": "00:00:00",
+    "testTimeMinutes": 0,
+    "questionGroups": [
+        {
+            "name": null,
+            "eachScores": 2,
+            "questions": [
+                            {
+                                "optionList": [
+                                    "默认自己账户被盗用的事实，按照警察教学的方法保护财产，毕竟人民警察不可能是坏人。",
+                                    "拨打110报警电话，核实电话中警察所说明的信息，并相信自己不会受到冤枉。",
+                                    "打电话告知自己的亲属，自己的手机号码等信息泄露，警惕陌生号码的来电。",
+                                    "不予转账并举报该电话号码。"
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>今年&quot;十一&quot;黄金周期间，这个市的3000多名消防官兵，已准备好210辆消防车，决定放弃休假，始终坚守在各自执勤的岗位上。</li>\r\n\t<li>华航电子有限公司以人为本，利用各种渠道培养和提高在职人员的专业技术水平，取得了良好的经济效益。</li>\r\n\t<li>海洋生物专家介绍，许多海洋生物的药用价值正在逐步被发现和推广，其前途不可估量。&nbsp;</li>\r\n\t<li>北方联盟是否进军喀布尔，取决于阿富汗各派在政治上达成一致以及塔利班是否妥协。</li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "A",
+            				
+                                "analysis": "这是典型的冒充公检法诈骗。骗子谎称自己是警察，骗取你的信任，用虚构的案情诱使你进行银行卡转账。需要谨记公安机关不会在电话里网上办案，也不会和其他部门之间相互转接电话，更不会要求对其转账。",
+            				
+                                "questionStem": "<p>大学生小明放假期间，接到来电显示为公安部门的电话。对方声称小明的银行账户被毒贩盗用，涉嫌洗钱，需要小明配合调查并将冻结小明的账户。随后，对方为小明提供了一个银行卡账号，并告知小明要将银行卡里的存款转移到安全账户中才能不被冻结。如果你是小明，你不应该做什么？()</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 64828,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 1
+                                }
+                            },
+                            {
+                                "optionList": [
+                                    "置之不理，公安机关有严格的办案程序，不会通过电话办案",
+                                    "拨打当地派出所电话进行核实",
+                                    "按对方要求去转账，尽快配合调查",
+                                    "到所在地派出所找民警核实情况"
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>置之不理，公安机关有严格的办案程序，不会通过电话办案</li>\r\n\t<li>拨打当地派出所电话进行核实</li>\r\n\t<li>按对方要求去转账，尽快配合调查</li>\r\n\t<li>到所在地派出所找民警核实情况</li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "C",
+                                "analysis": "这是典型的冒充公检法诈骗。骗子谎称自己是警察，骗取你的信任，用虚构的案情诱使你进行银行卡转账。需要谨记公安机关不会在电话里网上办案，也不会和其他部门之间相互转接电话，更不会要求对其转账。",
+                                "questionStem": "<p>小赵接到了一个电话，对方自称公安局警官，并直接说出小赵的名字及身份证号，称其银行卡涉嫌洗钱犯罪，正被警方通缉，需要小赵配合调查，把卡内的钱转到指定的安全账户内，调查结束后，再把钱打回小赵的账户，以下哪种做法是错误的?</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 40046,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 2
+                                }
+                            },
+                            {
+                                "optionList": [
+                                    "他怎么说就怎么做",
+                                    "躲在墙角先哭一场",
+                                    "保留证据并且立即报警",
+                                    "关进小黑屋里瑟瑟发抖"
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>他怎么说就怎么做</li>\r\n\t<li>躲在墙角先哭一场</li>\r\n\t<li>保留证据并且立即报警</li>\r\n\t<li>关进小黑屋里瑟瑟发抖</li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "C",
+                                "analysis": "公检法人员绝不会通过电话、微信、QQ等方式来通知核查资金，将钱转移到“安全账户”，凡通过电话，短信等方式要求转账的、汇款、资金核查等操作的都是诈骗，切记不相信、不转账。如实在难以辨别真伪，请拨打110。",
+                                "questionStem": "<p>当你微信收到网络赌博“通缉令”，上面有你的头像，并且加盖了公检法机关的印章，要求你提供账户信息进行核查，会怎么办？</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 61894,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 3
+                                }
+                            },
+                            {
+                                "optionList": [
+                                    "江湖救急，立马给钱。",
+                                    "让他发个语音，听听声音。",
+                                    "打电话/开视频/验身份等等，安全放到第一位。"
+                                   
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>江湖救急，立马给钱。</li>\r\n\t<li>让他发个语音，听听声音。</li>\r\n\t<li>打电话/开视频/验身份等等，安全放到第一位。</li>\r\n\t<li></li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "C",
+                                "analysis": "谈到“电话转接公安局、法院”，一律挂掉.",
+                                "questionStem": "<p>好朋友通过QQ/微信/短信找我，说急事借钱?</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 64822,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 4
+                                }
+                            },
+                            {
+                                "optionList": [
+                                    "拨打所属银行官方号码咨询。",
+                                    "立刻回拨短信中的电话。",
+                                    "拨打110询问并提供此号码。"
+                                    
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>拨打所属银行官方号码咨询。</li>\r\n\t<li>立刻回拨短信中的电话。</li>\r\n\t<li>拨打110询问并提供此号码。</li>\r\n\t<li></li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "B",
+                                "analysis": "接到陌生电话，只要谈到银行卡，一律挂掉.",
+                                "questionStem": "<p>当你接到电话或收到短信称你的银行卡在异地有消费记录，如有疑问请拨打某电话查询时，以下不可取的是?</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 64088,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 5
+                                }
+                            },
+                            {
+                                "optionList": [
+                                    "根据短信提示再次进行付款。",
+                                    "查看订单状态，联系卖家核实。",
+                                    "在网上搜“淘宝客服”电话询问。"
+                                
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>根据短信提示再次进行付款。</li>\r\n\t<li>查看订单状态，联系卖家核实。</li>\r\n\t<li>在网上搜“淘宝客服”电话询问。</li>\r\n\t<li></li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "B",
+                                "analysis": "网络购物须谨慎，退款是假，骗钱是真，凡是接到电话自称要为你理赔退款的，不论是购物平台客服或快递服务客服，都是诈骗。",
+                                "questionStem": "<p>某高校学生小李在网上买了一件衣服，支付完毕后收到“淘宝客服”短信，称其支付没有成功，需要重新操作，此时小李应该?</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 66482,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 6
+                                }
+                            },
+                            {
+                                "optionList": [
+                                    "相信对方身份，并根据对方指示到柜员机操作。",
+                                    "不轻易相信，因为任何单位电话均可被不法分子虚拟显示。",
+                                    "回拨这一号码进行核实，如果打不通就是假号码。",
+                                    "拨打110报警电话。"
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>相信对方身份，并根据对方指示到柜员机操作。</li>\r\n\t<li>不轻易相信，因为任何单位电话均可被不法分子虚拟显示。</li>\r\n\t<li>回拨这一号码进行核实，如果打不通就是假号码。</li>\r\n\t<li>拨打110报警电话。</li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "A",
+                                "analysis": "谈到“电话转接公安局、法院”，一律挂掉.",
+                                "questionStem": "<p>假设你接到陌生号码的来电，对方自称是东莞税务局，称国家已下调购车附加税，你刚购买的车子现在可以退还税金,要求你拿银行卡到银行柜员机操作领取税款。你拨打114查询，发现来电号码确实是东莞税务局的，下列做法不正确的是?</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 31340,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 7
+                                }
+                            },
+                            {
+                                "optionList": [
+                                    "给老板打个电话或者到他办公室当面问一下再汇款。",
+                                    "公司的钱又不是我的，听老板的话没错。",
+                                    "应该核实一下，但是老板会不会嫌我太磨叽，还是按照他说的做吧。"
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>给老板打个电话或者到他办公室当面问一下再汇款。</li>\r\n\t<li>公司的钱又不是我的，听老板的话没错。</li>\r\n\t<li>应该核实一下，但是老板会不会嫌我太磨叽，还是按照他说的做吧。</li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "A",
+                                "analysis": "凡是自称领导要求打款的,统统不要相信。",
+                                "questionStem": "<p>公司财务人员薄女士微信收到一条申请添加好友信息，对方自称是薄女士公司的“徐总”并强调这个微信号是工作微信号，且微信昵称和微信头像也都是徐总本人。随后，“徐总”便将薄女士拉入了一个微信群，微信群的名字就是薄女士所在单位的名字，而且微信群中还有薄女士的其他同事。“徐总”在群聊中要求她汇款到指定账号，她应该怎么办?</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 64085,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 8
+                                }
+                            },
+                            {
+                                "optionList": [
+                                    "发短信验证码给对方。",
+                                    "只要能帮我提升额度就按照对方的指示完成各项操作。",
+                                    "删除短信不理睬，因为信用卡额度是靠自已还款良好记录来提升的。"
+                            
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>发短信验证码给对方。</li>\r\n\t<li>只要能帮我提升额度就按照对方的指示完成各项操作。</li>\r\n\t<li>删除短信不理睬，因为信用卡额度是靠自已还款良好记录来提升的。</li>\r\n\t<li></li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "C",
+                                "analysis": "凡是在电话中索要银行信息及短信验证码的,统统不要相信。",
+                                "questionStem": "<p>张某收到短信，称可以帮其升级信用卡额度，只要将信用卡账号发给对方，后来收到一条短信验证提示，对方说要短信验证码才能完成操作,张某应该怎么做?</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 31343,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 9
+                                }
+                            },
+                            {
+                                "optionList": [
+                                    "将钱转到安全账户。",
+                                    "公安机关没有安全账户，这是个骗子报瞥并举报。",
+                                    "相信对方，并按照对方各种要求去操作。"
+                                ],
+                                "questionType": 1,
+                                "version": 1,
+                                "options": "<ol>\r\n\t<li>将钱转到安全账户。</li>\r\n\t<li>公安机关没有安全账户，这是个骗子报瞥并举报。</li>\r\n\t<li>相信对方，并按照对方各种要求去操作。</li>\r\n\t<li></li>\r\n</ol>\r\n",
+                                "optionsLength": 4,
+                                "answer": "B",
+                                "analysis": "一提到“安全账户”的，一律是诈骗。",
+                                "questionStem": "<p>小黄接到一个尾号为110的固定电话，电话那头自称是东莞市公安局禁毒支队的民警，说小黄的包裹里有冰毒,涉嫌运输毒品，购买这个包裹的银行卡涉嫌犯罪，必须先把卡内的资金转到警方的安全账户内,等案件调查清楚再退还给小黄，小黄应该()</p>\r\n",
+                                "scores": 2,
+                                "additional": {
+                                    "id": 45484,
+                                    "level": "shiti",
+                                    "typeName": "单选题",
+                                    "doneCount": 0,
+                                    "errorCount": 0,
+                                    "star": false,
+                                    "order": 10
+                                }
+                            }
+                            
+                            
+                
+                ],
+                        "additional": {}
+                    }
+                ],
+                "testSeconds": null,
+                "additional": {
+                    "kcId": 277
+                }
+}

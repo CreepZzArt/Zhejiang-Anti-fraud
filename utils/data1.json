@@ -1,0 +1,275 @@
+{
+    "name": null,
+    "classifyId": 0,
+    "classifyTitle": null,
+    "totalScores": 0,
+    "testTime": "00:00:00",
+    "testTimeMinutes": 0,
+    "questionGroups": [
+        {
+            "name": null,
+            "eachScores": 2,
+            "questions": [
+              {
+                "optionList": [
+                  "在学校勤工俭学",
+                  "在一家门店打零工",
+                  "网上找兼职刷信誉",
+                  "做家教服务"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li>今年&quot;十一&quot;黄金周期间，这个市的3000多名消防官兵，已准备好210辆消防车，决定放弃休假，始终坚守在各自执勤的岗位上。</li>\r\n\t<li>华航电子有限公司以人为本，利用各种渠道培养和提高在职人员的专业技术水平，取得了良好的经济效益。</li>\r\n\t<li>海洋生物专家介绍，许多海洋生物的药用价值正在逐步被发现和推广，其前途不可估量。&nbsp;</li>\r\n\t<li>北方联盟是否进军喀布尔，取决于阿富汗各派在政治上达成一致以及塔利班是否妥协。</li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "C",
+                "analysis": "网上刷信誉属于刷单行为",
+                "questionStem": "<p>同学王某想找一份兼职工作，积累社会实践经验，扩大个人收入来源，他不可以干的工作是（）？</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 64828,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 1
+                }
+              },
+              {
+                "optionList": [
+                  "既可以赚钱，又很轻松，帮其刷其信誉",
+                  "要求对方先打款才能帮其刷信誉",
+                  "不帮对方刷信誉，因为刷信誉的行为是不正确的，往往是骗局",
+                  "分享给朋友一起刷"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li style=\"margin-bottom: 11.25pt; margin-right: 0cm; margin-left: 0cm;\"><span style=\"font-size:12pt\"><span style=\"font-family:Calibri,sans-serif\"><u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">毗</span></span></span></u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">连&nbsp;<u>琵</u>琶&nbsp;<u>筚</u>路蓝缕</span></span></span></span></span></li>\r\n\t<li style=\"margin-bottom: 11.25pt; margin-right: 0cm; margin-left: 0cm;\"><span style=\"font-size:12pt\"><span style=\"font-family:Calibri,sans-serif\"><u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">伶</span></span></span></u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">仃&nbsp;<u>拎</u>包 身陷<u>囹</u>圄</span></span></span></span></span></li>\r\n\t<li style=\"margin-bottom: 11.25pt; margin-right: 0cm; margin-left: 0cm;\"><span style=\"font-size:12pt\"><span style=\"font-family:Calibri,sans-serif\"><u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">格</span></span></span></u><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">式 楼<u>阁</u>&nbsp;<u>恪</u>尽职守</span></span></span></span></span></li>\r\n\t<li style=\"margin-bottom: 11.25pt; margin-right: 0cm; margin-left: 0cm;\"><span style=\"font-size:12pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"font-family:&quot;微软雅黑&quot;,&quot;sans-serif&quot;\"><span style=\"color:black\">拾<u>掇</u>&nbsp;点<u>缀</u>&nbsp;忧心<u>惙惙</u></span></span></span></span></span></li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "C",
+                "analysis": "网上的刷单都是骗子",
+                "questionStem": "<p>同学朱某在网站找兼职时，看到一则信息，说是给某网站刷信誉可以赚钱，朱某下列哪项行为正确（）</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 40046,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 2
+                }
+              },
+              {
+                "optionList": [
+                  "打电话给对方争吵理论，要求其退订",
+                  "按对方提示进行退订",
+                  "将对方拉入黑名单",
+                  "联系正规淘宝客服，进行相关查询后，视情况报警。(正确答案)"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li>体验&nbsp;&nbsp;布局&nbsp;&nbsp;先机</li>\r\n\t<li>布局&nbsp;&nbsp;体验&nbsp;&nbsp;先机</li>\r\n\t<li>布局&nbsp;&nbsp;先机&nbsp;&nbsp;体验</li>\r\n\t<li>先机&nbsp;&nbsp;体验&nbsp;&nbsp;布局</li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "D",
+                "analysis": "管理好自己的钱包千万不能转账",
+                "questionStem": "同学张某在淘宝网上购物以后，接到自称客服的电话，对方称因为误操作，将其列为代理商，每月他需要交500元会员费，张某该怎么办？（）</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 61894,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 3
+                }
+              },
+              {
+                "optionList": [
+                  "冒充公检法诈骗",
+
+                  "杀猪盘诈骗",
+
+                  "刷单诈骗",
+
+                  "贷款诈骗"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li>>迫在眉睫</u>。</li>\r\n\t<li>真正的朋友之间，应该<u>间不容发</u>，关系密切如一人。</li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "A",
+                "analysis": null,
+                "questionStem": "<p>2021年，中国香港发生了一起电信诈骗案件，受害人被骗2.5亿港币，在这起案件中，骗子不但经常打电话给受害人，甚至还派了一名特派员上门协助转账。请问，这是什么类型的诈骗？（）</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 64822,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 4
+                }
+              },
+              {
+                "optionList": [
+                  "闲鱼、转转是正规的二手物品交易网站",
+                  "平台中发布的购物信息都是真实可靠的。",
+                  "可以通过微商购买二手物品，谈妥价格后转账汇款，等待卖家发货。",
+                  "可脱离闲鱼、转转等平台，添加卖家的微信或qq，在微信或qq.上完成转账汇款交易。",
+                  "卖家通过微信或qq发送的物品链接，通常都是钓鱼链接，决不能脱离平台交易"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li>际遇 &nbsp;辑录 &nbsp;风雨飘遥</li>\r\n\t<li>蒙昧 &nbsp;迷惘 &nbsp;处之泰然</li>\r\n\t<li>豁达 &nbsp;墨契 &nbsp;简明厄要</li>\r\n\t<li>料俏 &nbsp;羁伴 &nbsp;似无忌惮</li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "D",
+                "analysis": null,
+                "questionStem": "阅读上述案例，以下说法正确的是?()</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 64088,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 5
+                }
+              },
+              {
+                "optionList": [
+                  "点击链接，按要求输入银行卡、退款验证码。",
+                  "对方能说出我的信息，肯定是快递员，和他交涉让他多赔点。",
+                  "挂断电话，直接与商家核对物流信息。",
+                  "不予理会。"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li><u>陌</u>生 &nbsp;<u>秣</u>马厉兵 &nbsp;<u>蓦</u>然醒悟</li>\r\n\t<li><u>唠</u>叨 &nbsp;时代<u>烙</u>印 &nbsp;防旱防<u>涝</u></li>\r\n\t<li><u>堕</u>落 &nbsp;<u>度</u>德量力 &nbsp;城墙<u>垛</u>口</li>\r\n\t<li>保<u>姆</u>&nbsp;&nbsp;栉风<u>沐</u>雨 &nbsp;<u>睦</u>邻友邦</li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "C",
+                "analysis": null,
+                "questionStem": "<p>接到自称快递员的来电，对方准确说出了你的身份信息和家庭地址，称把你的快递弄丢了，要全额退款，发送退款链接让你填写银行卡信息，称填完后退款将直接退到银行卡，此时你该怎么做?()</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 66482,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 6
+                }
+              },
+              {
+                "optionList": [
+                  "不相信，加好友看看是不是真的有通缉令。",
+                  "相信民警，一一照办。",
+                  "自己没做过，去警局核实。",
+                  "找民警自首"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li><span style=\"font-size:14px;\">不胫而走 旁证博引 即往开来</span></li>\r\n\t<li><span style=\"font-size:14px;\">鞭辟入里 变本加厉 瑕瑜互见</span></li>\r\n\t<li><span style=\"font-size:14px;\">轻歌曼舞 始作勇者 一愁莫展</span></li>\r\n\t<li><span style=\"font-size:14px;\">以逸代劳 谈笑风生 变换莫测</span></li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "C",
+                "analysis": "如果你真的被通缉了，警察会带着“银手镯”来找你",
+                "questionStem": "<p>接到自称民警的来电，说你涉嫌犯罪，让你加好友,把通缉令发给你看，你该怎么办?()</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 31340,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 7
+                }
+              },
+              {
+                "optionList": [
+                  "不参与，警惕是非法传销。",
+                  "这么好，当然大量消费获得返利。",
+                  "邀约身边朋友加入消费平台，那我就能赚取很多钱。",
+                  "不告诉朋友自己偷着乐"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li><u>数</u>说 &nbsp;<u>数</u>伏 &nbsp;不可胜<u>数</u>&nbsp;&nbsp;<u>数</u>典忘祖</li>\r\n\t<li><u>识</u>别 &nbsp;<u>识</u>破 &nbsp;博闻强<u>识</u>&nbsp;&nbsp;远见卓<u>识</u></li>\r\n\t<li>纵<u>横</u>&nbsp;&nbsp;<u>横</u>行 &nbsp;妙趣<u>横</u>生 &nbsp;专<u>横</u>跋扈</li>\r\n\t<li><u>模</u>型 &nbsp;<u>模</u>具 &nbsp;<u>模</u>棱两可 &nbsp;装<u>模</u>作样</li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "A",
+                "analysis":"消费返现全是骗局",
+                "questionStem": "<p> 一个互联网平台，只要消费就能返钱,而且将身边亲戚朋友给一点入会费用就能赚取消费的佣金，你会怎么做?()</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 64085,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 8
+                }
+              },
+              {
+                "optionList": [
+                  "心动可以赚点零花钱。",
+                  "不相信，不参加。",
+                  "马上加入。",
+                  "带上身边人一起做。"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li><span style=\"font-size:14px;\">由于在交通路口设置了&ldquo;非机动车禁驶区&rdquo;，机动车就可以免受非机动车干扰，从 而加快行驶速度。</span></li>\r\n\t<li><span style=\"font-size:14px;\">国际社会普遍认为，海洋资源的开发利用将成为人类走出人口剧增、资源枯竭、环 境恶化困境的重要选择。</span></li>\r\n\t<li><span style=\"font-size:14px;\">如果美术工作者看不到儿童自身发展的主动性，过早地让他们接受专业绘画知识， 那么就会变成束缚儿童发展的枷锁。</span></li>\r\n\t<li><span style=\"font-size:14px;\">为能够吸引更多的高科技人才进驻本市高科技园区企业，市政府相关部门将为此类 人才提供专门的资金支持政策。</span></li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "B",
+                "analysis": null,
+                "questionStem": "<p>.如果有朋友跟你推荐某款不知名面膜,让你加入一起在朋友圈售卖,并且告诉你收入非常可观，你会怎么看?()</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 31343,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 9
+                }
+              },
+              {
+                "optionList": [
+                  "注销。",
+                  "冻结。",
+                  "停卡。",
+                  "挂失补办。"
+                ],
+                "questionType": 1,
+                "version": 1,
+                "options": "<ol>\r\n\t<li>个性 面貌 大智若愚</li>\r\n\t<li>个性 风貌 大巧若拙</li>\r\n\t<li>性格 面貌 大智若愚</li>\r\n\t<li>性格 风貌 大巧若拙</li>\r\n</ol>\r\n",
+                "optionsLength": 4,
+                "answer": "D",
+                "analysis": null,
+                "questionStem": "<p>电子银行客户若发生证书丢失或密码泄露等情况，应尽快与银行联系，办理()手续</p>\r\n",
+                "scores": 2,
+                "additional": {
+                  "id": 45484,
+                  "level": "shiti",
+                  "typeName": "单选题",
+                  "doneCount": 0,
+                  "errorCount": 0,
+                  "star": false,
+                  "order": 10
+                }
+              }
+            ],
+            "additional": {}
+        }
+    ],
+    "testSeconds": null,
+    "additional": {
+        "kcId": 277
+    }
+}
